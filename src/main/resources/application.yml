@@ -1,0 +1,19 @@
+spring:
+#DB
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://47.96.67.47:5432/gomro_cloud_test1008
+    data-username: postgres
+    data-password: echoshen
+
+#solr
+  data:
+    solr:
+      host: http://127.0.0.1:8888/solr/goods
+
+#logging
+  logging:
+    level:
+      com.itheima.springboot: debug
+
+
